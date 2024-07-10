@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'ArabicFont';
+  src: url('./assets/Arabic-font-2013.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+}
+
+input::placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+
+input,
+button {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  header img {
+    height: 48px;
+  }
+
+  .social-icons img {
+    height: 24px;
+  }
+
+  .phone-img {
+    height: 200px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header img {
+    height: 64px;
+  }
+
+  .social-icons img {
+    height: 32px;
+  }
+
+  .phone-img {
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  header img {
+    height: 80px;
+  }
+
+  .social-icons img {
+    height: 40px;
+  }
+
+  .phone-img {
+    height: 400px;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1rem 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
