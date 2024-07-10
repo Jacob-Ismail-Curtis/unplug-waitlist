@@ -15,7 +15,7 @@ app.use(cors());
 const dbURI = 'mongodb+srv://jacobcurtis786:eoPLy9fD6SoqWnsU@unplug.xljlq5y.mongodb.net/waitlistDB?retryWrites=true&w=majority&appName=unplug'; // Replace with your actual MongoDB connection string
 mongoose.connect(dbURI, {})
   .then(() => console.log('MongoDB connected successfully'))
-  .catch(err => console.error('MongoDB connection error:', err));
+  .catch((err) => console.error('MongoDB connection error:', err));
 
 // Define Schema and Model for Waitlist Entry
 const waitlistEntrySchema = new mongoose.Schema({
@@ -43,7 +43,7 @@ app.post('/api/waitlist', (req, res) => {
 
   newEntry.save()
     .then(() => res.status(201).json({ message: 'Waitlist entry added successfully' }))
-    .catch(err => {
+    .catch((err) => {
       console.error('Error saving waitlist entry:', err);
       res.status(500).json({ error: err.message });
     });

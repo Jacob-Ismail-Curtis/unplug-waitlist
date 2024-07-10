@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Footer = () => {
+function Footer() {
   return (
-    <footer className="relative w-full bg-black text-2xl text-white py-4">
+    <footer className="relative w-full bg-black text-xl md:text-2xl lg:text-3xl text-white py-4">
       <div className="overflow-hidden whitespace-nowrap">
         <div className="">
           {'coming soon . '.repeat(40)}
@@ -10,6 +10,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;
