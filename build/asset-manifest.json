@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.58069c9a.css",
+    "main.js": "/static/js/main.efe9f73e.js",
+    "static/js/453.92b3441c.chunk.js": "/static/js/453.92b3441c.chunk.js",
+    "static/media/Arabic-font-2013.ttf": "/static/media/Arabic-font-2013.184cda3f46e1e07bb553.ttf",
+    "static/media/whatsapp.png": "/static/media/whatsapp.deb0222ddf09761e25fa.png",
+    "static/media/instagram_orange.png": "/static/media/instagram_orange.af0f5f5f628c2426d8bd.png",
+    "static/media/unplug-logo.png": "/static/media/unplug-logo.e058084c616316756d85.png",
+    "static/media/instagram.png": "/static/media/instagram.527f4f6cef2530b426d6.png",
+    "static/media/message.png": "/static/media/message.18022702eaa3335f4f28.png",
+    "static/media/tiktok_orange.png": "/static/media/tiktok_orange.1bc27fc4e1d8bc6c4d3a.png",
+    "static/media/logo.png": "/static/media/logo.caf4a6bb295b2db4aefb.png",
+    "static/media/tiktok.png": "/static/media/tiktok.bf8fcc23739305f0b707.png",
+    "index.html": "/index.html",
+    "main.58069c9a.css.map": "/static/css/main.58069c9a.css.map",
+    "main.efe9f73e.js.map": "/static/js/main.efe9f73e.js.map",
+    "453.92b3441c.chunk.js.map": "/static/js/453.92b3441c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58069c9a.css",
+    "static/js/main.efe9f73e.js"
+  ]
+}
